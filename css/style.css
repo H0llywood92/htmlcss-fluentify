@@ -48,6 +48,9 @@ body {
     width: 15%;
     color: grey;
 }
+.img-box {
+    width: auto;
+}
 /* HEADER */
 header {
     height: 550px;
@@ -124,9 +127,9 @@ nav {
     margin-bottom: 10px;
 }
 /* Content */
-.img-box {
+/* Content Top */
+.img-title {
     height: 150px;
-    width: auto;
 }
 .img-box img {
     height: 100%;
@@ -147,4 +150,30 @@ nav {
 }
 .title-and-specification .grey-text {
     margin-top: 20px;
+}
+hr {
+    width: 95%;
+    margin: 20px auto;
+    color: grey;
+}
+/* Content Bottom */
+.content-left,
+.content-right {
+    width: 50%;
+    padding-top: 30px;
+}
+.img-graphic {
+    height: 350px;
+}
+.content-text {
+    width: 50%;
+}
+.content-right h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.content-right a {
+    display: inline-block;
+    margin-top: 20px;
+    color: lightskyblue;
 }
