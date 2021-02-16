@@ -117,6 +117,9 @@ nav {
 /* END HEADER */
 
 /* MAIN */
+main {
+    margin-bottom: 40px;
+}
 /* Bg Grey */
 .bg-grey {
     background-color: lightgrey;
@@ -176,4 +179,14 @@ hr {
     display: inline-block;
     margin-top: 20px;
     color: lightskyblue;
+}
+
+/* FOOTER */
+footer {
+    background-color: lightgrey;
+    padding: 40px;
+}
+.footer-left,
+.footer-right {
+    width: 50%;
 }
