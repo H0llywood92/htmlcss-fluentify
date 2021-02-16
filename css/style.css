@@ -22,7 +22,7 @@ body {
 .float-left {
     float: left;
 }
-.clearfix {  
+.clearfix::after {  
       content:"";
       display: table;
       clear: both;
@@ -52,6 +52,15 @@ body {
 .img-box {
     width: auto;
 }
+/* HELP */
+.help {
+    position: fixed;
+    bottom: 0;
+    right: 15%;
+    z-index: 1;
+    padding: 8px 5px;
+}
+
 /* HEADER */
 header {
     height: 550px;
@@ -116,14 +125,6 @@ nav {
     margin-bottom: 20px;
 }
 /* END HEADER */
-/* HELP */
-.help {
-    position: fixed;
-    bottom: 0;
-    right: 10%;
-    z-index: 1;
-    padding: 8px 5px;
-}
 
 
 /* MAIN */
