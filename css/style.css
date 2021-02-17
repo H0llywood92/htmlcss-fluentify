@@ -168,10 +168,7 @@ hr {
 .content-left,
 .content-right {
     width: 50%;
-    padding-top: 30px;
-}
-.img-graphic {
-    height: 350px;
+    padding: 60px;
 }
 .content-text {
     width: 50%;
