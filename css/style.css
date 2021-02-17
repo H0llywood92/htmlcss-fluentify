@@ -75,7 +75,6 @@ header {
 }
 .menu-center {
     width: 50%;
-    padding-left: 40px;
 }
 .menu-right {
     width: 40%;
@@ -86,7 +85,7 @@ header {
 }
 .menu li {
     display: inline-block;
-    margin-left: 35px;
+    margin-left: 50px;
     line-height: 60px;
 }
 .menu li a {
